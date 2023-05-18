@@ -1,12 +1,14 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
+import reactLogo from '../assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import { Title } from './App.styled'
+import { APIgetUsers } from '../services/tweetsApi'
+import Loader from './loader/Loader'
 
-function App() {
+const  App = () => {
   const [count, setCount] = useState(0)
-
+// APIgetUsers()
   return (
     <>
       <div>
@@ -31,6 +33,7 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
+      {/* <Loader /> */}
     </>
   )
 }
