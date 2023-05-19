@@ -6,6 +6,6 @@ const tweetsAPI = axios.create({
 
 export const APIgetUsers = async () => {
     const data = await tweetsAPI.get(`tweets`);
-    // console.log('data :>> ', typeof(data));
+    console.log('data :>> ', typeof(data));
 }
 

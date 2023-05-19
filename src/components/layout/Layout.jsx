@@ -1,5 +1,5 @@
-import React, { Suspense } from "react";
-import { Link, Outlet } from "react-router-dom";
+import { Suspense } from "react";
+import { Outlet } from "react-router-dom";
 import Loader from "../loader/Loader";
 import { ToastContainerEl } from "../toast/ToastContainer";
 import { Header } from "./header/Header";
