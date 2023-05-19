@@ -7,7 +7,7 @@ const HomePage = () => {
     <div>
       Home Page
       <p>Welcome to </p>
-      <Link to="/tweets">Tweets</Link>
+      <Link to="tweets" state={{ from: location }}>Tweets</Link>
 
     </div>
   )
