@@ -8,7 +8,7 @@ const HomePage = () => {
       Home Page
       <p>Welcome to </p>
       {/* <Link to="tweets" state={{ from: location }}>Tweets</Link> */}
-next try 2!!!
+next try 3!!!
     </div>
   )
 }
