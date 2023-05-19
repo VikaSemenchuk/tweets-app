@@ -23,7 +23,11 @@ const App = () => {
       </Route>
     </Routes>
   );
-  //   const [count, setCount] = useState(0)
+  
+};
+
+export default App;
+//   const [count, setCount] = useState(0)
   // // APIgetUsers()
   //   return (
   //     <>
@@ -52,6 +56,3 @@ const App = () => {
   //       {/* <Loader /> */}
   //     </>
   //   )
-};
-
-export default App;
