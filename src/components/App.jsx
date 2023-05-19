@@ -19,7 +19,7 @@ const App = () => {
     <Routes>
       <Route path="/" element={<Layout />}>
         <Route index element={<LazyHomePage />} />
-        <Route path='tweets' element={<LazyTweetsPage />} />
+        <Route path='/tweets' element={<LazyTweetsPage />} />
       </Route>
     </Routes>
   );
