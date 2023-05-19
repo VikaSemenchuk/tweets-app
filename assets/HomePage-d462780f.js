@@ -1,0 +1,1 @@
+import{u as s,j as e,L as t}from"./index-74de617a.js";const r=()=>(s(),e.jsxs("div",{children:["Home Page",e.jsx("p",{children:"Welcome to "}),e.jsx(t,{to:"/tweets",children:"Tweets"})]}));export{r as default};
