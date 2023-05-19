@@ -10,7 +10,7 @@ const Layout = () => {
     <>
       <ToastContainerEl />
       {/* <Link to="/tweets">Tweets</Link> */}
-<Header/>
+      <Header />
       <Suspense fallback={<Loader />}>
         <main>
           <Container>
