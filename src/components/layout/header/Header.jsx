@@ -10,7 +10,7 @@ export const Header = () => {
             <NavLink to="/">Home</NavLink>
           </li>
           <li>
-            <NavLink to="/tweets">Movies</NavLink>
+            <NavLink to="/tweets">Tweets</NavLink>
           </li>
         </ul>
       </nav>
